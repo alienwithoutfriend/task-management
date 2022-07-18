@@ -15,6 +15,9 @@ class TaskController extends GetxController {
   }
 
   @override
-  void onClose() {}
+  void onClose() {
+    super.onClose();
+  }
+
   void increment() => count.value++;
 }

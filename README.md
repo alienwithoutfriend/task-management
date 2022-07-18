@@ -1,4 +1,4 @@
-# taks_management_app
+# task_management_app
 
 A new Flutter project.
 
