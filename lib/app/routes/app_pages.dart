@@ -23,6 +23,8 @@ class AppPages {
       name: _Paths.HOME,
       page: () => HomeView(),
       binding: HomeBinding(),
+      transition: Transition.upToDown,
+      transitionDuration: Duration(seconds: 1),
     ),
     GetPage(
       name: _Paths.LOGIN,
@@ -30,14 +32,14 @@ class AppPages {
       binding: LoginBinding(),
     ),
     GetPage(
-      name: _Paths.FRIENDS,
-      page: () => FriendsView(),
-      binding: FriendsBinding(),
-    ),
-    GetPage(
       name: _Paths.TASK,
       page: () => TaskView(),
       binding: TaskBinding(),
+    ),
+    GetPage(
+      name: _Paths.FRIENDS,
+      page: () => FriendsView(),
+      binding: FriendsBinding(),
     ),
     GetPage(
       name: _Paths.PROFILE,
